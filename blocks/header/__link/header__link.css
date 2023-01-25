@@ -1,0 +1,26 @@
+.header__link{
+    color: white;
+    font-size: 24px;
+    font-family: 'Inter', 'Arial', sans-serif;
+    line-height: 1.1666;
+    font-weight: 400;
+    opacity: 1;
+    transition: opacity 0.8s ease;
+    margin-right: 18px;
+    text-decoration: none;
+  }
+  
+  .header__link:hover { 
+    opacity: 0.2;
+  }
+
+  @media all and (max-width: 320px) {
+    .header__link {
+        font-size: 18px;
+        line-height: 20px;
+    }
+  }
+
+  .header__link:last-of-type {
+    margin-right: 0;
+  }
